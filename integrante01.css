@@ -1,0 +1,56 @@
+body{
+    display:block; /*coloca todos os ítens um em cada linha*/
+    width: auto;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    display: flex; /*coloca os ítens dessa div um do lado do outro*/
+    justify-content: center; /*ítem no meio da tela*/
+    height: 30%;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 70px;
+    margin-top:70px;
+    font-weight: bold;
+   }
+
+.img-logo {
+    height: 200px;
+    width: auto; 
+}
+
+main {
+    background-color: rgba(238,130,238, 0.3);
+    display: flex;
+    height: 70%;
+    border: 3px solid;
+    justify-content: space-evenly;
+
+}
+
+.img-contact {
+    height: 300px;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+p {
+    text-align: center;
+    font-weight: 400;
+    margin: 100px 100px;
+    font-size: 30px;
+    letter-spacing: 1px; /*espaçamento entre as letras*/
+    line-height: 35px;/*espaçamento entre linhas*/
+}
+
+span {
+    text-decoration: underline;
+}
